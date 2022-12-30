@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+	background-image: url("Wallpaper1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-1 {
+    min-height: 10rem;
+    margin: auto;
+    max-width: 50%;
+    padding: 0.5rem;
+}
+
+::placeholder {
+	color:rgba(185, 42, 42, 0.7);
+}
+
+.something {
+	text-align: center;
+	background-color: rgb(29, 227, 200);
+	border: 2px solid brown;
+    height: 350px;
+	width: 400px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+}
+
+.login-username:focus, .login-password:focus {
+	background: #9fd819;
+	color: black;
+	transition: 250ms background ease-in;
+  }
+  
+.login-submit {
+	border: 1px solid #1b7a7b;
+	background: transparent;
+	color: #157173;
+	transition: 250ms background ease-in;
+	
+}
+
+.login-forgot-pass:hover {
+	color: wheat;
+	opacity: 1;
+  }
+
+
+
+
