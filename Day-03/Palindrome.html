@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Palindrome Checker</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+	    <link rel="stylesheet" href="style.css">
+        <script>
+            function palindrome_check(){
+                var a,s,i, ch,n;
+                a = document.getElementById("input").value;
+                s=a.toLowerCase();
+                n=s.length;
+                var p=1;
+                for(i=0;i<n/2;i++)
+                {
+                    if(s.charAt(i) != s.charAt(n-1-i))
+                    {
+                        p=0;
+                        break;
+                    }
+                }
+
+                if(p==1)
+                {
+                    document.getElementById("pg").innerHTML = "String is palindrome.";
+                }
+                else
+                {
+                    document.getElementById("pg").innerHTML = "String is not palindrome.";
+                }
+            }
+        </script>
+    </head>
+    <body class="c1">
+        <div class="text">
+            <h1>Palindrome Checker</h1>
+            <form name="frm1">
+                <!--<label for="input">Input String:</label>-->
+                <input type="text" id="input" name="t1" autocomplete="off" placeholder="Input String" />
+            </form>
+            <br>
+            <h4>Check the answer by clicking the below button</h4><br>
+            <button onclick="palindrome_check()">Click Here!</button>
+            <p id="pg"></p>
+        </div>
+    </body>
+</html>
