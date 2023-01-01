@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+	padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 125vh;
+    margin-top: 80px;
+    padding: 30px;
+    background-image: linear-gradient(to right, #7cd325, #bdcf85);
+    background-size: cover;
+}
+
+header{
+    background-color: aqua;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header *{
+    display: inline;
+}
+
+header li a{
+    color: darkgreen;
+    text-decoration: none;
+    padding: 5px 20px;
+    margin: 20px;
+}
