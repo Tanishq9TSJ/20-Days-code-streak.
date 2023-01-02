@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Background change</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+	    <link rel="stylesheet" href="style.css">
+        <script type="text/javascript">
+            function f1()
+            {
+                document.body.style.backgroundImage = "url(Wallpaper1.jpg)";
+                window.setTimeout("f2()", 1500);
+            }
+
+            function f2()
+            {
+                document.body.style.backgroundImage = "url(Wallpaper2.jpg)";
+                window.setTimeout("f3()", 1500);
+            }
+
+            function f3()
+            {
+                document.body.style.backgroundImage = "url(Wallpaper3.jpg)";
+                window.setTimeout("f4()", 1500);
+            }
+
+            function f4()
+            {
+                document.body.style.backgroundImage = "url(Wallpaper4.jpg)";
+                window.setTimeout("f5()", 1500);
+            }
+
+            function f5()
+            {
+                document.body.style.backgroundImage = "url(Wallpaper5.jpg)";
+                window.setTimeout("f6()", 1500);
+            }
+
+            function f6()
+            {
+                document.body.style.backgroundImage = "url(Wallpaper6.jpg)";
+                window.setTimeout("f7()", 1500);
+            }
+
+            function f7()
+            {
+                document.body.style.backgroundImage = "url(Wallpaper7.jpg)";
+                //document.write(msg());
+                //window.setTimeout("f1()", 1500);
+            }
+
+            function msg(){
+                alert("Display of 7 different backgrounds");
+            }
+        </script>
+    </head>
+    <body>
+        <div class="text">
+        <h1 align="center">7 Different Background</h1>
+        <form name="frm1">
+            <center>
+                <input type="button" name="btncolor" value="Change Colors" onClick="f1()">
+                <input type="button" name="btnmsg" value="Message Display" onClick="msg()">
+            </center>
+        </form>
+    </div>
+    </body>
+</html>
