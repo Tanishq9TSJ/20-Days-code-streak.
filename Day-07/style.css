@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to right, #0d0d0d, #3d3e3c);
+    background-color: rgb(16, 16, 15);
+}
+
+.container{
+    width: 800px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+.landing-page {
+    position: relative;
+    /*background-color: #fff;*/
+}
+
+.landing-page .header-area {
+    display: flex;
+    padding: 10px 0 0;
+    position: relative;
+    background-color: rgb(204, 210, 28);
+    box-shadow: 0 0 25px 0 black;
+}
+
+.landing-page .header-area * {
+    display: inline-block;
+}
+
+.landing-page .header-area .logo {
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 19px;
+    width: 300px;
+    color: #141414;
+}
+
+.landing-page .header-area .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.landing-page .header-area .links li {
+    display: inline-block;
+    margin-left: 35px;
+    color: #141414;
+    cursor: pointer;
+}
+
+.landing-page .header-area .links li:last-child {
+    border: 0;
+    border-radius: 20px;
+    border-width: 1em;
+    padding: 10px 18px;
+    color: #141414;
+    background-color: #fff;
+}
+
+.landing-page .header-area .links li:last-child:hover {
+    color: #fff;
+    background-color: #141414; 
+}
+
+.landing-page .info {
+    width: 35%;
+    float: left;
+    margin-top: 130px;
+}
+
+.landing-page .info h1 {
+    font-size: 38px;
+    margin: -70px 0 10px;
+    line-height: 1.2;
+    color: #74e80e;
+}
+
+.landing-page .info p {
+    margin: 0;
+    line-height: 1.6;
+    font-weight: 15px;
+    color: #e6eff2;
+}
+
+
+
+.landing-page .info .Watch-Now {
+    background-color: #e6eff2;
+    border: none;
+    outline: none;
+
+}
+.landing-page .info .Watch-Now {
+    border: 0;
+    font-size: 20px;
+    border-radius: 20px;
+    border-width: 1em;
+    padding: 12px 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #141414;
+    background-color: #fff;
+}
+
+.landing-page .info .Watch-Now:hover{
+    color: #fff;
+    background-color: #141414;
+}
+
+.landing-page .image {
+    width: 50%;
+    float: right;
+    margin-top: 65px;
+    margin-left: 100px;
+}
+
+.landing-page .image img {
+    max-width: 100%;
+}
