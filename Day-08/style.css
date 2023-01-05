@@ -1,0 +1,37 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(39, 145, 232);
+    color: aliceblue;
+  }
+
+  h1{
+    color:blanchedalmond
+  }
+  .text{
+    font-size: 24px;
+  }
+  .moreText{
+    display: none;
+  }
+  .text.show-more .moreText{
+    display: inline;
+  }
+  .readMoreBtn{
+    padding: 15px 60px;
+    background-color: blanchedalmond;
+    color:rgb(39, 145, 232);
+    border: none;
+    /*outline: none;*/
+    border-radius: 20px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .dots{
+    display: inline-block;
+  }
+  .text.show-more .dots{
+    display: none;
+  }
