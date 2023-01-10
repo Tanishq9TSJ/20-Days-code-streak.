@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: bordor-box;
+}
+
+body {
+    background: linear-gradient(45deg, #0d324d, #7f5a83);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rating_heading{
+    color: #fff;
+    animation: scale-up 1s ease;
+}
+
+p{
+    font-size: 21px;
+}
+
+.rating{
+    user-select: none;
+    background-color: #fff;
+    padding: 1.4rem 2.5rem;
+    margin: 2rem;
+    border-radius: 4rem;
+    text-align: center;
+}
+
+.star{
+    font-size: 3rem;
+    color: gold;
+    background-color: unset;
+    border: none;
+}
+
+.star:hover {
+    cursor: pointer;
+}
