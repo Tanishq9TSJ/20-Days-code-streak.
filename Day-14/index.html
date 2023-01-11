@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <p class="reg"><b>Registration form</b></p>
+            <form>
+                <div class="step step-1 active">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input autocomplete="off" type="text" id="firstName" name="first-name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input autocomplete="off" type="text" id="lastName" name="last-name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="university">University</label>
+                        <input autocomplete="off" type="text" id="nickName" name="nick-name" />
+                    </div>
+                    <button type="button" class="next-btn">Next</button>
+                </div>
+                <div class="step step-2">
+                    <div class="form-group">
+                        <label for="course">Course</label>
+                        <input type="text" id="phone" name="phone-number" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input autocomplete="off" type="text" id="email" name="email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="mobile">Mobile no.</label>
+                        <input type="text" id="phone" name="phone-number" />
+                    </div>
+                    <button type="button" class="previous-btn">Prev</button>
+                    <button type="button" class="next-btn">Next</button>
+                </div>
+                <div class="step step-3">
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input autocomplete="off" type="text" id="city" name="city" />
+                    </div>
+                    <div class="form-group">
+                        <label for="postCode">PIN</label>
+                        <input autocomplete="off"  type="text" id="postCode" name="post-code" />
+                    </div>
+                    <button type="button" class="previous-btn">Prev</button>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
